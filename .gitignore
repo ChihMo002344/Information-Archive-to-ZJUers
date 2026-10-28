@@ -1,0 +1,7 @@
+# 本地草稿，不入库
+资源.txt
+
+# 系统垃圾
+Thumbs.db
+.DS_Store
+desktop.ini

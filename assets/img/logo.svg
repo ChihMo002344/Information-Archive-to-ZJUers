@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="IA托者">
+  <defs>
+    <linearGradient id="iaGrad" x1="8" y1="5" x2="41" y2="43" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B49BFF" />
+      <stop offset=".52" stop-color="#7C6CFF" />
+      <stop offset="1" stop-color="#3AD6FF" />
+    </linearGradient>
+    <linearGradient id="iaFace" x1="13" y1="12" x2="36" y2="26" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8E1FF" />
+      <stop offset="1" stop-color="#9EE7FF" />
+    </linearGradient>
+    <radialGradient id="iaBg" cx="24" cy="6" r="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A2150" />
+      <stop offset="1" stop-color="#070A16" />
+    </radialGradient>
+  </defs>
+
+  <rect x="2" y="2" width="44" height="44" rx="13.5" fill="url(#iaBg)" />
+  <rect x="2.8" y="2.8" width="42.4" height="42.4" rx="12.8" fill="none" stroke="url(#iaGrad)" stroke-opacity=".48" stroke-width="1.5" />
+
+  <path d="M24 12.6 36.2 18.5 24 24.4 11.8 18.5 24 12.6Z" fill="url(#iaFace)" />
+  <path d="M11.8 24.2 24 30.1 36.2 24.2" stroke="url(#iaGrad)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".75" />
+  <path d="M11.8 29.8 24 35.7 36.2 29.8" stroke="url(#iaGrad)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".38" />
+</svg>

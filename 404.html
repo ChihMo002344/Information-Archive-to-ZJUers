@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>404 · IA托者</title>
+<meta name="robots" content="noindex" />
+<link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="./assets/css/style.css" />
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem('ia-theme');
+      document.documentElement.setAttribute('data-theme', saved || 'dark');
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body>
+<div class="backdrop" aria-hidden="true">
+  <div class="glow glow-a"></div>
+  <div class="glow glow-b"></div>
+</div>
+
+<main class="not-found">
+  <img src="./assets/img/logo.svg" width="54" height="54" alt="" />
+  <p class="nf-code">404</p>
+  <h1>这个入口不存在</h1>
+  <p class="nf-text">链接可能已经失效，或者地址输错了。</p>
+  <a class="nf-btn" href="./index.html">返回首页</a>
+</main>
+</body>
+</html>
