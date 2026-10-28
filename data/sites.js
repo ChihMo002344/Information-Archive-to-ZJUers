@@ -25,7 +25,7 @@ window.IA_DATA = {
     heroSub: "浙大人的常用入口：教务课程、学习资源、社区工具，外加一份 CC98 热帖存档。",
 
     // 填成 "用户名/仓库名" 或完整链接即可显示 GitHub 入口与「提交入口」按钮
-    repo: "",
+    repo: "ChihMo002344/Information-Archive-to-ZJUers",
     // 「提交入口」按钮的地址；留空时自动用 repo + /issues/new/choose
     submitUrl: "",
 
